@@ -1,0 +1,24 @@
+.btn1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 100px;
+
+    border: 2px solid #f181f3;
+    border-radius: 8px;
+    background-color: #f181f3;
+    color: #2c1b73;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.3s ease;
+    font-size: 30px;
+}
+
+.btn1:hover {
+    background-color: #cbbdce;
+    border-color: #cbbdce;
+}
+
+.btn1:active {
+    transform: translateY(2px);
+}
